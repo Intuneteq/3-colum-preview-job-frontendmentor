@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,600;1,500&family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@100;700;900&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+}
+
+#bigContainer {
+    background-color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 30px;
+    color: white;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    width: 22%;
+    height: auto;
+}
+
+#container1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: "Big Shoulders Display";
+}
+
+#bigContainer .container #bodi {
+    line-height: 25px;
+    font-weight: Lexend Deca;
+    font-weight: lighter;
+}
+
+#button button {
+    margin-top: 60px;
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+
+#container2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#button2 button {
+    margin-top: 60px;
+    color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+
+#container3 {
+    background-color: hsl(179, 100%, 13%)
+}
+
+#button3 button {
+    margin-top: 60px;
+    color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
